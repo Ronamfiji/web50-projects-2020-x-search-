@@ -1,0 +1,30 @@
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-item{
+    margin: 10px;
+}
+
+/* Unlisted link */
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+/* Visited link */
+a:visited{
+    color: black;
+}
+/* Hover or mouseover link */
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+/* Selected link */
+a:active{
+    color: black;
+}
