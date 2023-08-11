@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google Image</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -9,12 +9,20 @@
             <ul class="navbar">
                 <li class="navbar-item"><a href="index.html">Google</a></li>
             </ul>
-            <h1>Google</h1>
-            <form action="https://www.google.com/imghp?hl=en&ogbl">
-                <input type="text" name="q">
-                <input type="submit" value="Image Search">
-            </form>
+            
+        </div>
+        <div class="center">
+            <img src="googleimage.png" alt="Google Icon" height="92">
         </div>
         
+    
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" class="rounded-input">
+            <input type="hidden" name="tbm" value="isch">
+            
+            <div class="center">
+                <input type="submit" value="Google Image" class="btn-google">
+            </div>
+        </form>
     </body>
 </html>

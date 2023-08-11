@@ -1,19 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Advance Search</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     </head>
     <body>
         <div>
+            <div class="head">
+                <img src="google.png" alt="Google Icon" height="24">
+            </div>
             <ul class="navbar">
                 <li class="navbar-item"><a href="index.html">Google</a></li>
             </ul>
         </div>
-        
-        <h1 class="advance">Advanced Search</h1>
+
+        <p class="advance">Advanced Search</p>
         <div class="line"></div>
+        <div>
+            <p class="lote">Find pages with...</p>
+
+            <form action="https://www.google.com/search">
+                <div class="input-row">
+                    <div class="left">
+                        <p class="fornt">all these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_q" class="form-control">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="left">
+                        <p class="fornt">this exact word or phrase:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_epq" class="form-control">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="left">
+                        <p class="fornt">any of these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_oq" class="form-control">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="left">
+                        <p class="fornt">none of these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_eq" class="form-control">
+                    </div>
+                </div>
+
+            </form>
+        </div>
         
+
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" class="rounded-input">
+            <input type="hidden" name="tbm" value="isch">
+            
+            <div class="center">
+                <input type="submit" value="Advanced Search" class="btn-google">
+            </div>
+        </form>
     </body>
 </html>
 
