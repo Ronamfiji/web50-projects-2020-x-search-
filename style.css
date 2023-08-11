@@ -93,7 +93,7 @@ a:active{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     font-size: small;
 }
 
@@ -111,12 +111,7 @@ a:active{
 .advance-head{
     color: #d93025;
     font-size: 20px;
-    margin: 25px 35px;
-}
-
-.div-header{
-    flex: 1 1 auto;
-    overflow: hidden;
+    margin: 5px 35px;
 }
 
 .line{
@@ -129,6 +124,17 @@ a:active{
     width: 16%;
     font-weight: 500;
     color: #333;
+}
+
+.searchDesc {
+    float: left;
+    display: inline-block;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 30px;
+    vertical-align: middle;
 }
 
 .searchInputs {
