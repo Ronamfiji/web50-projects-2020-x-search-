@@ -127,7 +127,6 @@ a:active{
 }
 
 .searchDesc {
-    float: left;
     display: inline-block;
     width: 33%;
     font-size: 13px;
