@@ -7,6 +7,7 @@
 
 .navbar-item{
     margin: 10px;
+    
 }
 
 /* Unlisted link */
@@ -66,16 +67,20 @@ a:active{
 }
 
 .head{
-    display: inline-block;
-    position: relative;
-    top: 2px;
+    
+    box-sizing: border-box;
+    margin: 10px;
 }
 
-
-.advance{
+.advance-head{
     color: #d93025;
     font-size: 20px;
     margin: 25px 35px;
+}
+
+.div-header{
+    flex: 1 1 auto;
+    overflow: hidden;
 }
 
 .line{
@@ -83,36 +88,54 @@ a:active{
 }
 
 .lote{
-    margin-left: 30px;
-    margin-top:  30px;
-    padding: 0;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
-    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+
+}
+
+.div-search{
+    margin: 30px;
+    font-family: arial,sans-serif;
 }
 
 .input-row{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
     margin-top: 20px;
-    vertical-align: baseline;
-    text-decoration: none;
 }
 
 .left{
     width: 200px;
-    margin-left: 30px;
 }
 
 .right{
     width: 385px;
 }
+
 .fornt{
     font-size: 13px;
-    vertical-align: baseline;
-    text-decoration: none;
+    vertical-align: middle;
+}
+
+.btn-advanced{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3029ed;
+    color: #fff;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 30px;
+}
+.test{
+}
+.t2{
+ text-align: right;
+}
+.t1{
+    text-align: left;
 }
